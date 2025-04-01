@@ -10,6 +10,8 @@ document.addEventListener("DOMContentLoaded", () => {
     for (const button of buttons) {
       button.addEventListener("click", createParagraph);
     }
+  	location.reload();
+
   });   
   
   const select = document.querySelector("select");
@@ -33,5 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
     } else {
       para.textContent = "";
     }
+    location.reload();
+
   }
   
